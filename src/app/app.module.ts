@@ -12,6 +12,8 @@ import { HomeComponent } from './site/home/home.component';
 import { ContentComponent } from './site/home/content/content.component';
 import { FooterComponent } from './layout/footer/footer.component';
 import { NavbarComponent } from './layout/navbar/navbar.component';
+import { BenefitsComponent } from './site/benefits/benefits.component';
+import { PriceComponent } from './site/price/price.component';
 
 
 
@@ -22,7 +24,9 @@ import { NavbarComponent } from './layout/navbar/navbar.component';
     HomeComponent,
     ContentComponent,
     FooterComponent,
-    NavbarComponent
+    NavbarComponent,
+    BenefitsComponent,
+    PriceComponent
   ],
   imports: [
     BrowserModule,
