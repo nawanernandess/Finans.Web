@@ -14,6 +14,9 @@ import { FooterComponent } from './layout/footer/footer.component';
 import { NavbarComponent } from './layout/navbar/navbar.component';
 import { BenefitsComponent } from './site/benefits/benefits.component';
 import { PriceComponent } from './site/price/price.component';
+import { ClientModule } from './areas/client/client.module';
+import { AdminModule } from './areas/admin/admin.module';
+import { SharedModule } from './shared/shared.module';
 
 
 
@@ -36,7 +39,11 @@ import { PriceComponent } from './site/price/price.component';
     BsDatepickerModule.forRoot(),
     ModalModule.forRoot(),
     MatTableModule,
-    HttpClientModule
+    HttpClientModule,
+    ClientModule,
+    AdminModule,
+    ClientModule,
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]
