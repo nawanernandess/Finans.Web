@@ -1,0 +1,19 @@
+.navbar-nav{
+    margin-left: 10%;
+    width: 100%;
+    color: beige;
+}
+
+.nav-item{
+    font-size:x-large;
+    
+}
+.navbar-light .navbar-nav .nav-link{
+    color: white;  
+    margin-left: 30px;
+}
+.btn-item-menu{
+    display: flex;
+    align-items:center;
+    justify-content:flex-end;
+}
