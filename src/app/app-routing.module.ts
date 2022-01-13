@@ -4,6 +4,8 @@ import { ContentComponent } from './site/home/content/content.component';
 import { BenefitsComponent } from './site/benefits/benefits.component';
 import { PriceComponent } from './site/price/price.component';
 import { ResourcesComponent } from './site/resources/resources.component';
+import { LoginComponent } from './site/login/login.component';
+import { UserRegisterComponent } from './site/user-register/user-register.component';
 
 const routes: Routes = [
   {
@@ -18,6 +20,14 @@ const routes: Routes = [
   },{
     path: "preco",
     component: PriceComponent
+  }
+  ,{
+    path: "login",
+    component: LoginComponent
+  }
+  ,{
+    path: "user-register",
+    component: UserRegisterComponent
   }
 ];
 

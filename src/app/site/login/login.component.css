@@ -1,0 +1,13 @@
+#login-format{
+    font-family:Arial, Helvetica, sans-serif;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+}
+
+#formulario-base{
+width: 40%;
+align-items: flex-end;
+margin-top: 100px;
+color: rgb(255, 255, 255);
+}
