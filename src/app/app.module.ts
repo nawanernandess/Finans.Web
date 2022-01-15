@@ -18,7 +18,7 @@ import { ClientModule } from './areas/client/client.module';
 import { AdminModule } from './areas/admin/admin.module';
 import { SharedModule } from './shared/shared.module';
 
-
+import { NgsRevealModule } from 'ngx-scrollreveal';
 
 
 @NgModule({
@@ -43,7 +43,8 @@ import { SharedModule } from './shared/shared.module';
     ClientModule,
     AdminModule,
     ClientModule,
-    SharedModule
+    SharedModule,
+    NgsRevealModule
   ],
   providers: [],
   bootstrap: [AppComponent]

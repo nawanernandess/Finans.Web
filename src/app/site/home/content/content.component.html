@@ -30,52 +30,51 @@
 </section><!-- Fim seção Home -->
 
 <section class="caixa" id="recursos"><!-- Inicio seção saiba / Recursos -->
-  <div class="container">
-      <div class="row">
-        <div class="col-md-6 d-flex" ngsReveal>
-            <div class="align-self-center">
-                  <h2>Recursos</h2>
-                  <p>
-                    TEXTO
-                  </p>
-              </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 d-flex" [ngsRevealSet]="{ reset:true}" [ngsInterval]="50" [ngsSelector]="'.scroll'">
+                <div class="align-self-center scroll">
+                    <h2>Recursos</h2>
+                    <p>
+                        TEXTO
+                    </p>
+                </div>
             </div>
-            <div class="col-md-6 image" style="visibility: visible; opacity: 1;transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-              transition: opacity 0.4s cubic-bezier(0.5, 0, 0, 1) 0s, transform 0.4s cubic-bezier(0.5, 0, 0, 1) 0s;" >
-                  <!-- A boa prática do bootstrap é criar imagens grandes para aplicar a classe img
-                  fluid. Com isso, atenderá os quesitos de responsividade -->
-                  <img src="../../assets/img/saiba.png" class="img-fluid relative">
+            
+            <div class="col-md-6 image scroll" style="visibility: visible; opacity: 1;transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+                transition: opacity 0.4s cubic-bezier(0.5, 0, 0, 1) 0s, transform 0.4s cubic-bezier(0.5, 0, 0, 1) 0s;" >
+                <!-- A boa prática do bootstrap é criar imagens grandes para aplicar a classe img
+                fluid. Com isso, atenderá os quesitos de responsividade -->
+                <img src="../../assets/img/saiba.png" class="img-fluid relative">
             </div>
         </div>
-  </div>            
-
+    </div>            
 </section><!-- Fim seção mais -->
 
 <section class="caixa" id="beneficios"><!-- Inicio seção juros / beneficios -->
-  <div class="container">
-      <div class="row">
-          <div class="col-md-6">
+    <div class="container">
+        <div class="row" [ngsRevealSet]="{ reset:true}" [ngsInterval]="50" [ngsSelector]="'.scroll'">
+            <div class="col-md-6 scroll">
                   <!-- A boa prática do bootstrap é criar imagens grandes para aplicar a classe img
                   fluid. Com isso, atenderá os quesitos de responsividade -->
                   <img src="../../assets/img/juros.png" class="img-fluid">
-              </div>
-          <div class="col-md-6 d-flex">
-              <div class="align-self-center">
+            </div>
+            <div class="col-md-6 d-flex scroll">
+                <div class="align-self-center">
                   <h2>BENEFICÍOS</h2>
                   <p>
                     TEXTO
                   </p>
-              </div>
-          </div>
-      </div>
-  </div>            
-
+                </div>
+            </div>
+        </div>
+    </div>            
 </section><!-- Fim seção juros -->
 
 <section class="caixa" id="investimentos"><!-- Inicio seção juros / investimentos -->
     <div class="container">
-        <div class="row">
-            <div class="card col-md cardInvest">
+        <div class="row" [ngsRevealSet]="{ reset:true}" [ngsInterval]="50" [ngsSelector]="'.scroll'">
+            <div class="card col-md cardInvest scroll">
                 <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -90,7 +89,7 @@
                 </div>
             </div>
 
-            <div class="card col-md cardInvest">
+            <div class="card col-md cardInvest scroll">
                 <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -105,7 +104,7 @@
                 </div>
             </div>
 
-            <div class="card col-md cardInvest">
+            <div class="card col-md cardInvest scroll">
                 <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -125,8 +124,8 @@
 
 <section class="caixa" id="info"><!-- Inicio seção recursos / info-->
   <div class="container">
-      <div class="row">
-          <div class="col-md-4">
+      <div class="row" [ngsRevealSet]="{ reset:true}" [ngsInterval]="50" [ngsSelector]="'.scroll'">
+          <div class="col-md-4 scroll">
               <img src="../../assets/img/facil.png" class="img-fluid">
               <h4>Fácil de Usar</h4>
               <p>
@@ -134,7 +133,7 @@
                   incríveis, essenciais para suas finanças. Simples como tem que ser!
               </p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 scroll">
               <img src="../../assets/img/economize.png" class="img-fluid">
               <h4>Suporte Amigo</h4>
               <p>
@@ -143,7 +142,7 @@
                   bem mais fácil!
               </p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 scroll">
               <img src="../../assets/img/suporte.png" class="img-fluid">
               <h4>Fácil de Usar</h4>
               <p>
