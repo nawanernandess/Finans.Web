@@ -18,15 +18,6 @@
                           </div>
                       </div>
                   </form>
-
-                  <p>Disponível para
-                      <a href="" class="btn btn-outline-light">
-                          <i class="fas fa-robot fa-lg"></i>
-                      </a>
-                      <a href="" class="btn btn-outline-light">
-                          <i class="fab fa-apple fa-lg"></i>
-                      </a>
-                  </p>
               </div>
           </div>
           <!-- d-none d-md-block   quando a tela fica >= md a imagem é mostrada-->
@@ -38,31 +29,29 @@
   </div>
 </section><!-- Fim seção Home -->
 
-<section class="caixa"><!-- Inicio seção saiba -->
+<section class="caixa" id="recursos"><!-- Inicio seção saiba / Recursos -->
   <div class="container">
       <div class="row">
-          <div class="col-md-6 d-flex">
-              <div class="align-self-center">
-                  <h2>Saiba para onde vai o seu dinheiro</h2>
+        <div class="col-md-6 d-flex" ngsReveal>
+            <div class="align-self-center">
+                  <h2>Recursos</h2>
                   <p>
-                      Com o Finans, você categoriza todos os seus lançamentos.
-                      Com gráficos simples, você sabe de onde vem e para onde vai
-                      o seu dinheiro.
+                    TEXTO
                   </p>
-                  <a href="#" class="btn btn-primary">Veja mais</a>
               </div>
-          </div>
-              <div class="col-md-6">
+            </div>
+            <div class="col-md-6 image" style="visibility: visible; opacity: 1;transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+              transition: opacity 0.4s cubic-bezier(0.5, 0, 0, 1) 0s, transform 0.4s cubic-bezier(0.5, 0, 0, 1) 0s;" >
                   <!-- A boa prática do bootstrap é criar imagens grandes para aplicar a classe img
                   fluid. Com isso, atenderá os quesitos de responsividade -->
-                  <img src="../../assets/img/saiba.png" class="img-fluid">
-              </div>
-      </div>
+                  <img src="../../assets/img/saiba.png" class="img-fluid relative">
+            </div>
+        </div>
   </div>            
 
 </section><!-- Fim seção mais -->
 
-<section class="caixa"><!-- Inicio seção juros -->
+<section class="caixa" id="beneficios"><!-- Inicio seção juros / beneficios -->
   <div class="container">
       <div class="row">
           <div class="col-md-6">
@@ -72,12 +61,10 @@
               </div>
           <div class="col-md-6 d-flex">
               <div class="align-self-center">
-                  <h2>Pare de pagar juros e economize</h2>
+                  <h2>BENEFICÍOS</h2>
                   <p>
-                      Manter as contas em dia é sempre um problema? O Finans
-                      avisa você: recebe alertas de contas a pagar e a receber!
+                    TEXTO
                   </p>
-                  <a href="#" class="btn btn-primary">Veja mais</a>
               </div>
           </div>
       </div>
@@ -85,7 +72,58 @@
 
 </section><!-- Fim seção juros -->
 
-<section class="caixa"><!-- Inicio seção recursos -->
+<section class="caixa" id="investimentos"><!-- Inicio seção juros / investimentos -->
+    <div class="container">
+        <div class="row">
+            <div class="card col-md cardInvest">
+                <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                <li class="list-group-item">An item</li>
+                <li class="list-group-item">A second item</li>
+                <li class="list-group-item">A third item</li>
+                </ul>
+                <div class="card-body">
+                
+                </div>
+            </div>
+
+            <div class="card col-md cardInvest">
+                <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                <li class="list-group-item">An item</li>
+                <li class="list-group-item">A second item</li>
+                <li class="list-group-item">A third item</li>
+                </ul>
+                <div class="card-body">
+
+                </div>
+            </div>
+
+            <div class="card col-md cardInvest">
+                <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                <li class="list-group-item">An item</li>
+                <li class="list-group-item">A second item</li>
+                <li class="list-group-item">A third item</li>
+                </ul>
+                <div class="card-body">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section><!-- Fim seção juros -->
+
+<section class="caixa" id="info"><!-- Inicio seção recursos / info-->
   <div class="container">
       <div class="row">
           <div class="col-md-4">
@@ -118,4 +156,3 @@
   </div>            
 
 </section><!-- Fim seção recursos -->
-

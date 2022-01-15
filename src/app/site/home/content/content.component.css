@@ -2,7 +2,29 @@
 	background:#ffc107;;
 	color: white;
 }
+
 .caixa{
 	padding: 60px 0;
 	border-bottom: 1px solid #e5e5e5;
+}
+
+#recursos .image::before{
+	content: '';
+	height: 90%;
+	width: 90%;
+	background-color: rgba(255, 193, 7, 0.5); 
+	position: absolute;
+	top: -7%;
+	left: 16%;
+	z-index: 0;
+	border-radius: 3%;
+}
+
+.relative{
+	position: relative;
+}
+
+.cardInvest{
+	height: 30rem;
+	margin-right: 15px;
 }
