@@ -4,9 +4,12 @@
     z-index: 1;
 }
 .navbar-nav{
-    margin-left: 10%;
     width: 100%;
     color: beige;
+
+    display: flex;
+
+    justify-content:flex-start;
 }
 
 .nav-item{
@@ -15,7 +18,7 @@
 }
 .navbar-light .navbar-nav .nav-link{
     color: white;  
-    margin-left: 30px;
+    
 }
 .btn-item-menu{
     display: flex;
