@@ -17,8 +17,15 @@ import { PriceComponent } from './site/price/price.component';
 import { ClientModule } from './areas/client/client.module';
 import { AdminModule } from './areas/admin/admin.module';
 import { SharedModule } from './shared/shared.module';
+import { MatIconModule } from '@angular/material/icon';
+import { MatStepperModule } from '@angular/material/stepper';
+import { LoginComponent } from './site/login/login.component';
+import { UserRegisterComponent } from './site/user-register/user-register.component';
+import { MatFormFieldModule } from '@angular/material/form-field';
 
 import { NgsRevealModule } from 'ngx-scrollreveal';
+import { MatInputModule } from '@angular/material/input';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -29,7 +36,9 @@ import { NgsRevealModule } from 'ngx-scrollreveal';
     FooterComponent,
     NavbarComponent,
     BenefitsComponent,
-    PriceComponent
+    PriceComponent,
+    LoginComponent,
+    UserRegisterComponent
   ],
   imports: [
     BrowserModule,
@@ -44,7 +53,13 @@ import { NgsRevealModule } from 'ngx-scrollreveal';
     AdminModule,
     ClientModule,
     SharedModule,
-    NgsRevealModule
+    NgsRevealModule,
+    MatIconModule,
+    MatStepperModule,
+    MatFormFieldModule,
+    MatInputModule,
+    FormsModule,
+     ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
