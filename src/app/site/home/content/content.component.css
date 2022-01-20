@@ -29,3 +29,7 @@
 	height: 30rem;
 	margin-right: 15px;
 }
+
+.btn{
+	z-index: 0;
+}
